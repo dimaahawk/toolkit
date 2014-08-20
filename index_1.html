@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+ 
+    <title>AdOps Toolkit v.1</title>
+ 
+    <!-- Bootstrap core CSS -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom styles for this template -->
+    <link href="http://wpbennett.com/steve/jumbotron.css" rel="stylesheet">
+ 
+<script type="text/javascript">
+ 
+      function doStuff()
+      {
+        var clkUrl = document.getElementById("clkUrl").value.trim();
+        var assetUrl = document.getElementById("banUrl").value.trim();
+        var impUrl = document.getElementById("impPix").value.trim();
+ 
+        var output = document.getElementById("iframeoutput");
+        output.innerHTML = '&lt;a href="' + clkUrl + '" target="_blank"&gt;';
+        output.innerHTML += '&lt;img src="' + assetUrl + '"&gt;';
+        output.innerHTML += '&lt;/a&gt;';
+        output.innerHTML += '&lt;img src="' + impUrl + '"&gt;';
+      }
+ 
+  </script>
+ 
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-comment"></a></li>
+          <li class="active"><a href="#"><span class="glyphicon glyphicon-play"></a></li>
+          
+        </ul>
+        <h2 class="text-muted">AdOps Toolkit<span class="glyphicon glyphicon-cog"></span></h2>
+      </div>
+ 
+      <div class="row marketing">
+        <div class="col-lg-6">
+          
+<!--/Macro-->
+      <h4>Music and Movies</h4>
+
+
+<div class="list-group">
+
+  <a href="http://soundcloud.com/" class="list-group-item active" target="_blank">Sound Cloud</a>
+
+  <a href="http://www.spotify.com/" class="list-group-item" target="_blank">Spotify</a>
+  <a href="https://play.google.com/" class="list-group-item active" target="_blank">Google Play</a>
+  <a href="http://www.netflix.com/" class="list-group-item" target="_blank">Netflix</a>
+
+  <a href="http://www.hulu.com/" class="list-group-item active" target="_blank">Hulu</a>
+</div>
+
+
+<!--/.Macro-collaps-->
+
+
+        </div>
+ 
+        <div class="col-lg-6">
+                 
+<!--/Twitter_Feed-->
+
+        <h4>Soundcloud Featured Artist</h4>
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143615267&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+<!--/.Twitter_Feed-collaps-->
+
+
+        </div>
+      </div>
+ 
+      <div class="footer">
+        <p>&copy; dimaa 2014</p>
+      </div>
+ 
+    </div> <!-- /container -->
+  </body>
+</html>
